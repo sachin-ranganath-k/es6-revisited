@@ -1,0 +1,9 @@
+Array helper methods (ES6)
+
+  1. map()
+  2. filter()
+  3. reduce()
+  4. find()
+  5. every()
+  6. some()
+  7. forEach()
