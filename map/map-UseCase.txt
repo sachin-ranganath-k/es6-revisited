@@ -1,0 +1,4 @@
+Eg. Facebook Posts
+
+Loop through the posts array of objects and display using map
+
