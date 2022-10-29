@@ -11,3 +11,12 @@ persons.forEach(function(person){
 */
 
 
+let numbers=[10,20,30,40,50];
+let sum=0;
+
+function add(number){
+  sum+=number
+}
+
+numbers.forEach(add)
+console.log(sum);  // 150
