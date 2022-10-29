@@ -1,0 +1,9 @@
+Example
+
+Check the checkboxes and delete the multiple emails..
+
+emails.forEach(function(email){
+    deleteEmail(email)
+})
+
+Delete all the selected emails
