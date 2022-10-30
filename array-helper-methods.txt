@@ -7,3 +7,5 @@ Array helper methods (ES6)
   5. every()
   6. some()
   7. forEach()
+
+  Keep return keyword for all helpers
