@@ -25,3 +25,23 @@ function createAdminUser(user = new User(generateId())) {
 }
 
 console.log(createAdminUser()); // User { id: 9545, admin: true }
+
+
+
+
+//***************** Old ES5 Approach ********************/
+
+function add(a, b) {
+  return a + b;
+}
+console.log(add(2, 1));
+console.log(add(2)); // NaN (2 + undefined is NaN(not a number))
+
+
+//Solving the above problem
+function add(a, b) {
+  b = (typeof b !== "undefined" ? b : 1);
+  return a + b;
+}
+console.log(add(2, 1));  //3
+console.log(add(2));  //3
